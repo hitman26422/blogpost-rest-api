@@ -25,5 +25,21 @@ A simple RESTful API built with **Spring Boot** to manage blog posts. Supports f
 
 ---
 
-## 📁 Project Structure
+🌐 API Endpoints
+Method	Endpoint	Description
+POST	/api/posts	Create new blog post
+GET	/api/posts	Get all posts
+GET	/api/posts/{id}	Get post by ID
+PUT	/api/posts/{id}	Update blog post
+DELETE	/api/posts/{id}	Delete blog post
 
+📥 Sample JSON (POST/PUT)
+json
+Copy
+Edit
+{
+  "title": "My First Blog Post",
+  "content": "This is the content of my first blog post.",
+  "category": "Technology",
+  "tags": ["Tech", "Programming"]
+}
